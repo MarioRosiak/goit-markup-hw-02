@@ -1,141 +1,177 @@
+<!DOCTYPE html>
 <html lang="pl-PL">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <header>
-    <nav>
-      <ul>
-        <li>WebStudio</li>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu-link">
+          <li class="web-item">
+            <a href="index.html" class="item-web">Web</a><a href="index.html"></a>Studio</a>
+          </li>
+          <li class="link-ag">
+            <a href="#" class="link"> Agencja </a>
+          </li>
+          <li class="link-po">
+            <a href="portfolio.html" class="link">Portfolio</a>
+          </li>
+          <li class="link-ko">
+            <a href="#" class="link">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="box-item-adress">
         <li>
-          <a href="#"> Agencja </a>
+          <a href="maito:info@devstudio.com" class="mail-item"> info@devstudio.com </a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Kontakt</a>
-        </li>
-      </ul>
-    </nav>
-    <ul>
-      <li>
-        <a href="maito:info@devstudio.com"> info@devstudio.com </a>
-      </li>
-      <li>
-        <a href="tel:+48 111 111 111">+48 111 111 111</a>
-      </li>
-    </ul>
-    <button>Wszystkie</button>
-    <button>Strony</button>
-    <button>Aplikacje</button>
-    <button>Marketing</button>
-  </header>
-  <main>
-    <ul>
-      <li>
-        <img
-          src="./images/technocrack.jpeg"
-          alt="Laptop"
-          width="370px"
-          height="294px"
-        />
-        <spam> Technocrack</spam>
-        <spam>Strona internetowa</spam>
-      </li>
-      <li>
-        <img
-          src="./images/new_orleans.jpeg"
-          alt="Gracze basketball"
-          width="370px"
-          height="294px"
-        />
-        <span>Grafika New Orlean vs Golden Star</span>
-        <spam>Dizajn</spam>
-      </li>
-      <li>
-        <img
-          src="./images/seafood.jpeg"
-          alt="Restauracja Seafood"
-          width="370px"
-          height="294px"
-        />
-        <spam> Restauracja Seafood</spam>
-        <span>Aplikacja</span>
-      </li>
-      <li>
-        <img
-          src="./images/prime.jpeg"
-          alt="Słuchawki"
-          width="370px"
-          height="294px"
-        />
-        <span>Projekt Prime</span>
-        <span>Marketing</span>
-      </li>
-      <li>
-        <img
-          src="./images/boxes.jpeg"
-          alt="Pudełka"
-          width="370px"
-          height="294px"
-        />
-        <span>Projekt Boxes</span>
-        <span>Aplikacja</span>
-      </li>
-      <li>
-        <img
-          src="./images/monitor.jpeg"
-          alt="Monitor"
-          width="370px"
-          height="294px"
-        />
-      </li>
-      <li>
-        <img
-          src="./images/press.jpeg"
-          alt="Magazyn"
-          width="370px"
-          height="294px"
-        />
-        <span>Magazyn Limited Edition</span>
-        <span>Dizajn</span>
-      </li>
-      <li>
-        <img src="./images/lab.jpeg" alt="LAB" />
-        <span>Projekt LAB</span>
-        <span>Marketing</span>
-      </li>
-      <li>
-        <img
-          src="./images/business.jpeg"
-          alt="Laptop"
-          width="370px"
-          height="294px"
-        />
-        <span>Growing Business</span>
-        <span>Aplikacja</span>
-      </li>
-    </ul>
-  </main>
-  <footer>
-    <address>
-      <ul>
-        <li>
-          <a href="#">WebStudio</a>
-        </li>
-        <li>
-          <a>m. Warszawa, Aleje Jerozolimskie 21</a>
-        </li>
-        <li>
-          <a href="mailto:info@example.com">info@example.com</a>
-        </li>
-        <li>
-          <a href="tel:+48 111 111 111">+48 111 111 111</a>
+          <a href="tel:+48111111111"  class="tel-item">+48 111 111 111</a>
         </li>
       </ul>
-    </address>
-  </footer>
+    </header>
+    <main>
+      <div class="box-item">
+        <ul>
+          <li>
+            <button class="btn-first">Wszystkie</button>
+          </li>
+          <li><button class="btn-second">Strony</button></li>
+          <li>
+            <button class="btn-third">Aplikacje</button>
+          </li>
+          <li>
+            <button class="btn-fourth">Dizajn</button>
+          </li>
+          <li>
+            <button class="btn-fifth">Marketing</button>
+          </li>
+        </ul>
+        <ul>
+          <li class="box-first">
+            <img
+              src="./images/technocrack.jpeg"
+              width="370px"
+              height="294px"
+              alt="Laptop"
+            />
+            <a> Technocrack</a>
+            <p>Strona internetowa</p>
+          </li>
+          <li class="box-second">
+            <img
+              src="./images/new_orleans.jpeg"
+              width="370px"
+              height="294px"
+              alt="Gracze basketball"
+            />
+            <a>Grafika New Orlean vs Golden Star</a>
+            <a>Dizajn</a>
+          </li>
+          <li class="box-third">
+            <img
+              src="./images/seafood.jpeg"
+              width="370px"
+              height="294px"
+              alt="Restauracja Seafood"
+            />
+            <a> Restauracja Seafood</a>
+            <a>Aplikacja</a>
+          </li>
+          <li class="box-four">
+            <img
+              src="./images/prime.jpeg"
+              width="370px"
+              height="294px"
+              alt="Słuchawki"
+            />
+            <a>Projekt Prime</a>
+            <a>Marketing</a>
+          </li>
+          <li class="box-fifth">
+            <img
+              src="./images/boxes.jpeg"
+              width="370px"
+              height="294px"
+              alt="Pudełka"
+            />
+            <a>Projekt Boxes</a>
+            <a>Aplikacja</a>
+          </li>
+          <li class="box-sixth">
+            <img
+              src="./images/monitor.jpeg"
+              width="370px"
+              height="294px"
+              alt="Monitor"
+            />
+            <a>Inspiration has no Borders</a>
+            <a>Strona internetowa</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="box-seven">
+            <img
+              src="./images/press.jpeg"
+              width="370px"
+              height="294px"
+              alt="Magazyn"
+            />
+            <a>Magazyn Limited Edition</a>
+            <a>Dizajn</a>
+          </li>
+          <li class="box-eight">
+            <img
+              src="./images/lab.jpeg"
+              width="370px"
+              height="294px"
+              alt="LAB"
+            />
+            <a>Projekt LAB</a>
+            <a>Marketing</a>
+          </li>
+          <li class="box-nine">
+            <img
+              src="./images/business.jpeg"
+              width="370px"
+              height="294px"
+              alt="Laptop"
+            />
+            <a>Growing Business</a>
+            <a>Aplikacja</a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <address class="addr-item">
+        <ul>
+          <li class="web-item-bottom">
+            <a href="index.html" class="item-web">Web</a><a href="index.html" class="item-studio-bottom">Studio</a>
+          </li>
+          <li class="addr-street">
+            <a>m. Warszawa, Aleje Jerozolimskie 21</a>
+          </li>
+          <li class="mail-item-bottom">
+            <a href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="tel-item-bottom">
+            <a href="tel:+48 111 111 111">+48 111 111 111</a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>
