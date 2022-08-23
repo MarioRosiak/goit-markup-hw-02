@@ -1,9 +1,9 @@
 body {
     position: relative;
-    width: 1600px;
-    height: 2349px;
+    width: 1600px;                     
     font-family: 'Roboto';
     font-weight: 400;
+    font-size: 16px;
     background: #E5E5E5;
     margin: 0 auto;
 }
@@ -51,9 +51,6 @@ h3 {
 ul {
     list-style-type: none;
 }
-li {
-    font-family: 'Roboto';
-}
 a {
     text-decoration: none;
 }
@@ -94,11 +91,11 @@ color: #2196F3;
 position: absolute;
     width: 200px;
     height: 50px;
-    left: 700px;
+    margin-left: 700px;
     margin-top: 360px;
-    background: #2196F3;
+    background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px
+    border-radius: 4px;
 }
 .btn-first {
     position: absolute;
@@ -106,8 +103,9 @@ position: absolute;
     height: 38px;
     margin-left: 510px;
     top: 94px;
-    background: #F5F4FA;
+    background-color: #F5F4FA;
     border-radius: 4px;
+    border: 0;
 }
 .btn-second {
     position: absolute;
@@ -117,6 +115,7 @@ position: absolute;
     top: 94px;
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0;
 }
 .btn-third {
 position: absolute;
@@ -126,6 +125,7 @@ position: absolute;
     top: 94px;
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0;
 }
 .btn-fourth {
     position: absolute;
@@ -135,15 +135,17 @@ position: absolute;
     top: 94px;
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0;
 }
 .btn-fifth {
     position: absolute;
-        width: 121px;
-        height: 38px;
-        margin-left: 961px;
-        top: 94px;
-        background: #F5F4FA;
-        border-radius: 4px;
+    width: 121px;
+    height: 38px;
+    margin-left: 961px;
+    top: 94px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
 }
 .menu-nav {
     font-family: 'Roboto';
@@ -174,11 +176,9 @@ position: absolute;
 .mail-item {
     position: absolute;
     padding-left: 1078px;
-    top: 32px;
-    font-family: 'Roboto';
+    margin-top: 32px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
     color: #757575;
 }
 .tel-item {
@@ -188,7 +188,6 @@ position: absolute;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
     color: #757575;
 }
 .box-item {
@@ -207,10 +206,14 @@ position: absolute;
         top: 182px;
         background: #FFFFFF;
         border: 1px solid #EEEEEE;
+        
+}
+.btn-first:hover, .btn-second:hover, .btn-third:hover, .btn-fourth:hover, .btn-fifth:hover {
+    background-color: #2196F3;
+    color:#FFFFFF
 }
 .box-second {
-box-sizing: border-box;
-
+    box-sizing: border-box;
     position: absolute;
     width: 370px;
     height: 404px;
@@ -219,6 +222,7 @@ box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
+
 .box-third {
     box-sizing: border-box;
         position: absolute;
@@ -282,31 +286,31 @@ box-sizing: border-box;
 }
 .box-nine {
     box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 404px;
-        margin-left: 1015px;
-        top: 1050px;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    margin-left: 1015px;
+    top: 1050px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 .addr-item {
     position: absolute;
-        width: 1600px;
-        height: 252px;
-        left: 0px;
-        top: 1628px;
-        background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
 }
 .web-item-bottom {
     position: absolute;
-        margin-left: 215px;
-        top: 60px;
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        color: #2196F3;
+    margin-left: 215px;
+    top: 60px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
 }
 .addr-street {
     position: absolute;
@@ -314,7 +318,6 @@ box-sizing: border-box;
     height: 21px;
     margin-left: 215px;
     top: 111px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -322,21 +325,19 @@ box-sizing: border-box;
 }
 .mail-item-bottom {
     position: absolute;
-        margin-left: 215px;
-        top: 141px;
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 14px;   
-    letter-spacing: 0.03em;
-    text-decoration-line: underline;
+    margin-left: 215px;
+    top: 141px;
+    font-weight: 400;
+    font-size: 14px;   
+    color: #ffffff99;
 }
 .tel-item-bottom {
     position: absolute;
     margin-left: 215px;
     top: 171px;    
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
+    color: #ffffff99;
 }
 .item-web {
 color: #2196F3;
@@ -346,4 +347,167 @@ color: #2196F3;
 }
 .item-studio-bottom {
     color: #ffffff;
+}
+.menu-box-name {
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    color: #212121;
+    margin-left: 24px;
+    top: 314px;
+}
+.menu-box-description {
+    position: absolute;
+    left: 24px;
+    top:358px;
+    color: #757575;
+}
+.txt-h {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    margin-left: 215px;
+    margin-top: 100px;
+}
+.main-txt {
+    position: absolute;
+    width: 1600px;
+    height: 769px;
+    margin-top: 0px;
+    background-color: #ffffff;
+}    
+.main-txt-first {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    margin-left: 215px;
+    padding-top: 120px;
+    }
+.main-txt-second {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    margin-left: 515px;
+    margin-top: 120px;
+}
+.main-txt-thirt {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    margin-left: 815px;
+    margin-top: 120px;
+}
+.main-txt-four {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    margin-left: 1115px;
+    margin-top: 120px;
+}
+.main-txt-body {
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+.img-main {
+    width: 370px;
+    height: 294px;
+}
+.txt-main {
+    position: absolute;
+    width: 352px;
+    height: 42px;
+    left: 624px;
+    margin-top: 289px;
+    font-weight: 700;
+    color: #212121;
+}
+.img-positin-first {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    margin-left: 215px;
+    padding-top: 381px;
+}
+.img-positin-srcond {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    margin-left: 615px;
+    padding-top: 381px;
+}
+.img-positin-thirt {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    margin-left: 1015px;
+    padding-top: 381px;
+}
+.txt-team {
+    position: absolute;
+    width: 210px;
+    height: 42px;
+    margin-left: 695px;
+    margin-top: 863px;
+}
+.img-team {
+    width: 270px; 
+    height:260px;
+}
+.box-team-first {
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    margin-left: 215px;
+    margin-top: 955px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.box-team-second {
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    margin-left: 515px;
+    margin-top: 955px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.box-team-thirty {
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    margin-left: 815px;
+    margin-top: 955px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.box-team-four {
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    margin-left: 1115px;
+    margin-top: 955px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.txt-name {
+    position: absolute;
+    width: 72px;
+    height: 19px;
+    padding-left: 99px;
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.txt-position {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 69px;
 }
