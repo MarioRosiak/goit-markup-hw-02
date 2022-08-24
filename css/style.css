@@ -68,10 +68,10 @@ color: #2196F3;
     color: #FFFFFF;
 }
 .bisnes-item {
-        height: 600px;
-        left: 452px;
-        top: 280px;
-        background: #2F303A;
+    height: 600px;
+    left: 452px;
+    top: 280px;
+    background: #2F303A;
 }
 .text-item {
     position: absolute;
@@ -149,12 +149,12 @@ position: absolute;
 }
 .menu-nav {
     font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 .link-ag {
-        position: absolute;
+    position: absolute;
     margin-left: 453px;
     width: 53px;
     height: 16px;
@@ -197,20 +197,24 @@ position: absolute;
     top: 1px;
     background: #FFFFFF;
 }
+.btn-first:hover,
+.btn-second:hover,
+.btn-third:hover,
+.btn-fourth:hover,
+.btn-fifth:hover {
+    background-color: #2196F3;
+    color: #FFFFFF
+}
 .box-first {
     box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 404px;
-        margin-left: 215px; 
-        top: 182px;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    margin-left: 215px; 
+    top: 182px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
         
-}
-.btn-first:hover, .btn-second:hover, .btn-third:hover, .btn-fourth:hover, .btn-fifth:hover {
-    background-color: #2196F3;
-    color:#FFFFFF
 }
 .box-second {
     box-sizing: border-box;
@@ -225,9 +229,9 @@ position: absolute;
 
 .box-third {
     box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 404px;
+    position: absolute;
+    width: 370px;
+    height: 404px;
     margin-left: 1015px;
     top: 182px;
     background: #FFFFFF;
@@ -235,54 +239,53 @@ position: absolute;
 }
 .box-four {
     box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 404px;
-        margin-left: 215px;
-        top: 616px;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    margin-left: 215px;
+    top: 616px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 .box-fifth {
     box-sizing: border-box;
-    
-        position: absolute;
-        width: 370px;
-        height: 404px;
-        margin-left: 615px;
-        top: 616px;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    margin-left: 615px;
+    top: 616px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 .box-sixth {
     box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 404px;
-        margin-left: 1015px;
-        top: 616px;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    margin-left: 1015px;
+    top: 616px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 .box-seven {
     box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 404px;
-        margin-left: 215px;
-        top: 1050px;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    margin-left: 215px;
+    top: 1050px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 .box-eight {
     box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 404px;
-        margin-left: 615px;
-        top: 1050px;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    margin-left: 615px;
+    top: 1050px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 .box-nine {
     box-sizing: border-box;
@@ -484,23 +487,23 @@ color: #2196F3;
 }
 .box-team-thirty {
     position: absolute;
-        width: 270px;
-        height: 368px;
-        margin-left: 815px;
-        margin-top: 186px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 368px;
+    margin-left: 815px;
+    margin-top: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .box-team-four {
     position: absolute;
-        width: 270px;
-        height: 368px;
-        margin-left: 1115px;
-        margin-top: 186px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 368px;
+    margin-left: 1115px;
+    margin-top: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .txt-name {
     position: absolute;
@@ -513,11 +516,9 @@ color: #2196F3;
     line-height: 19px;
 }
 .txt-position {
-    
     font-weight: 400;
     font-size: 16px;
     color: #757575;
-    margin: 0 auto:
     margin-top: 100px;
 }
 .main-team {
