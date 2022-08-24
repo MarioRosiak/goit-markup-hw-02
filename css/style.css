@@ -299,7 +299,15 @@ position: absolute;
     width: 1600px;
     height: 252px;
     left: 0px;
-    top: 2097px;
+    margin-top: 1550px;
+    background: #2F303A;
+}
+.addr-item-home {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    margin-top: 2017px;
     background: #2F303A;
 }
 .web-item-bottom {
@@ -366,8 +374,8 @@ color: #2196F3;
     position: absolute;
     width: 270px;
     height: 16px;
-    margin-left: 215px;
-    margin-top: 100px;
+    margin-left: 695px;
+    margin-top: 94px;
 }
 .main-txt {
     position: absolute;
@@ -459,7 +467,7 @@ color: #2196F3;
     width: 270px;
     height: 368px;
     margin-left: 215px;
-    margin-top: 955px;
+    margin-top: 186px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -469,30 +477,30 @@ color: #2196F3;
     width: 270px;
     height: 368px;
     margin-left: 515px;
-    margin-top: 955px;
+    margin-top: 186px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 .box-team-thirty {
     position: absolute;
-    width: 270px;
-    height: 260px;
-    margin-left: 815px;
-    margin-top: 955px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+        width: 270px;
+        height: 368px;
+        margin-left: 815px;
+        margin-top: 186px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
 }
 .box-team-four {
     position: absolute;
-    width: 270px;
-    height: 260px;
-    margin-left: 1115px;
-    margin-top: 955px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+        width: 270px;
+        height: 368px;
+        margin-left: 1115px;
+        margin-top: 186px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
 }
 .txt-name {
     position: absolute;
@@ -508,6 +516,14 @@ color: #2196F3;
     
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    padding-left: 69px;
+    color: #757575;
+    margin: 0 auto:
+    margin-top: 100px;
+}
+.main-team {
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    top: 1369px;
+    background: #F5F4FA;
 }
