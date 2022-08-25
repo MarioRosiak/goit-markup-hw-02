@@ -14,20 +14,28 @@ main {
     background: #FFFFFF;
 }
 .item-web {
+    font-weight: 700;
+    font-size: 26px;
     color: #2196F3;
 }
 
-.item-studio {
+.studio-item {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
     color: #000000;
 }
-.item-studio-bottom {
-    color: #ffffff;
-}
-.web-item {
+.webstudio-item {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     color: #2196F3;
+}
+.studio-item-bottom {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #ffffff;
 }
 ul {
     list-style-type: none;
@@ -35,24 +43,24 @@ ul {
 a {
     text-decoration: none;
 }
+a [href]{
+cursor: pointer;
+}
 h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
- }
+  }
 
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
     text-align: center;
 }
 
 h3 {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-}
+ }
 .link {
     color: #212121;
 }
@@ -60,23 +68,16 @@ h3 {
     color: #2196F3;
 }
 .link-ag {
-    width: 53px;
-    height: 16px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
 }
 .link-po {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
 }
 .link-ko {
-    width: 51px;
-    height: 16px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
 }
 .mail-item {
     font-weight: 500;
@@ -86,7 +87,6 @@ h3 {
 .tel-item {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
     color: #757575;
 }
 .bisnes-item {
@@ -95,72 +95,48 @@ h3 {
     background: #2F303A;
 }
 .text-item {
-    position: absolute;
-    width: 696px;
-    height: 120px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 .txt-main {
-    width: 352px;
-    height: 42px;
     font-weight: 700;
     color: #212121;
 }
 .btn-services {
-    position: absolute;
-    width: 200px;
-    height: 50px;
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 .main-txt-body {
     font-size: 14px;
-    line-height: 24px;
     color: #757575;
 }
 .box-team-first {
-    width: 270px;
-    height: 368px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 .txt-name {
-    width: 72px;
-    height: 19px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
 }
 .txt-position {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     color: #757575;
 }
 .main-team {
-    width: 1600px;
-    height: 648px;
     background-color: #F5F4FA;
 }
 .addr-item-home {
     width: 1600px;
-    height: 252px;
 }
 .footer-adress {
     width: 1600;
-    height: 252;
     background: #2F303A;
-}
-.box-job {
-    width: 1170px;
-    height: 386px;
 }
 .mail-item-bottom {
     font-weight: 400;
@@ -173,8 +149,6 @@ h3 {
     color: #ffffff99;
 }
 .addr-street {
-    width: 247px;
-    height: 21px;
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
@@ -187,16 +161,12 @@ h3 {
 }
 .btn-first {
     position: absolute;
-    width: 121px;
-    height: 38px;
     background-color: #F5F4FA;
     border-radius: 4px;
     border: 0;
 }
 .btn-second {
     position: absolute;
-    width: 93px;
-    height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
     border: 0;
@@ -204,8 +174,6 @@ h3 {
 
 .btn-third {
     position: absolute;
-    width: 114px;
-    height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
     border: 0;
@@ -213,8 +181,6 @@ h3 {
 
 .btn-fourth {
     position: absolute;
-    width: 91px;
-    height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
     border: 0;
@@ -222,8 +188,6 @@ h3 {
 
 .btn-fifth {
     position: absolute;
-    width: 121px;
-    height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
     border: 0;
