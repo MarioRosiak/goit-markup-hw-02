@@ -18,9 +18,10 @@
   <body>
     <header>
       <nav>
-        <ul>
+        <ul class="menu-link">
           <li class="web-item">
-            <a href="index.html" class="item-web">Web</a><a href="index.html">Studio</a>
+            <a href="index.html" class="item-web">Web</a
+            ><a href="index.html" class="item-studio">Studio</a>
           </li>
           <li class="link-ag">
             <a href="#" class="link"> Agencja </a>
@@ -33,14 +34,18 @@
           </li>
         </ul>
       </nav>
-      <ul class="box-item-adress">
-        <li>
-          <a href="maito:info@devstudio.com" class="mail-item">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+48111111111" class="tel-item">+48 111 111 111</a>
-        </li>
-      </ul>
+      <div>
+        <ul class="box-item-adress">
+          <li>
+            <a href="maito:info@devstudio.com" class="mail-item link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+48111111111" class="tel-item">+48 111 111 111</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <div class="box-item">
@@ -60,7 +65,7 @@
           </li>
         </ul>
         <ul>
-          <li class="box-first">
+          <li>
             <img
               src="./images/technocrack.jpeg"
               class="img-main"
@@ -69,7 +74,7 @@
             <a class="menu-box-name"> Technocrack</a>
             <a class="menu-box-description">Strona internetowa</a>
           </li>
-          <li class="box-second">
+          <li>
             <img
               src="./images/new_orleans.jpeg"
               class="img-main"
@@ -78,7 +83,7 @@
             <a class="menu-box-name">Grafika New Orlean vs Golden Star</a>
             <a class="menu-box-description">Dizajn</a>
           </li>
-          <li class="box-third">
+          <li>
             <img
               src="./images/seafood.jpeg"
               class="img-main"
@@ -87,35 +92,65 @@
             <a class="menu-box-name"> Restauracja Seafood</a>
             <a class="menu-box-description">Aplikacja</a>
           </li>
-          <li class="box-four">
-            <img src="./images/prime.jpeg" class="img-main" alt="Słuchawki" />
+          <li>
+            <img
+              src="./images/prime.jpeg"
+              width="370px"
+              height="294px"
+              alt="Słuchawki"
+            />
             <a class="menu-box-name">Projekt Prime</a>
             <a class="menu-box-description">Marketing</a>
           </li>
-          <li class="box-fifth">
-            <img src="./images/boxes.jpeg" class="img-main" alt="Pudełka" />
+          <li>
+            <img
+              src="./images/boxes.jpeg"
+              width="370px"
+              height="294px"
+              alt="Pudełka"
+            />
             <a class="menu-box-name">Projekt Boxes</a>
             <a class="menu-box-description">Aplikacja</a>
           </li>
-          <li class="box-sixth">
-            <img src="./images/monitor.jpeg" class="img-main" alt="Monitor" />
+          <li>
+            <img
+              src="./images/monitor.jpeg"
+              width="370px"
+              height="294px"
+              alt="Monitor"
+            />
             <a class="menu-box-name">Inspiration has no Borders</a>
             <a class="menu-box-description">Strona internetowa</a>
           </li>
         </ul>
         <ul>
-          <li class="box-seven">
-            <img src="./images/press.jpeg" class="img-main" alt="Magazyn" />
+          <li>
+            <img
+              src="./images/press.jpeg"
+              width="370px"
+              height="294px"
+              alt="Magazyn"
+            />
             <a class="menu-box-name">Magazyn Limited Edition</a>
             <a class="menu-box-description">Dizajn</a>
           </li>
-          <li class="box-eight">
-            <img src="./images/lab.jpeg" class="img-main" alt="LAB" />
+          <li>
+            <img
+              src="./images/lab.jpeg"
+              width="370px"
+              height="294px"
+              alt="LAB"
+            />
             <a class="menu-box-name">Projekt LAB</a>
             <a class="menu-box-description">Marketing</a>
           </li>
-          <li class="box-nine">
-            <img src="./images/business.jpeg" class="img-main" alt="Laptop" />
+          <li>
+            <img
+              src="./images/business.jpeg"
+              width="370px"
+              height="294px"
+              alt="Laptop"
+            />
             <a class="menu-box-name">Growing Business</a>
             <a class="menu-box-description">Aplikacja</a>
           </li>
@@ -123,28 +158,28 @@
       </div>
     </main>
     <footer>
-      <div  class="addr-item">
-      <address>
-        <ul>
-          <li class="web-item-bottom">
-            <a href="index.html" class="item-web">Web</a
-            ><a href="index.html" class="item-studio-bottom">Studio</a>
-          </li>
-          <li class="addr-street">
-            <a>m. Warszawa, Aleje Jerozolimskie 21</a>
-          </li>
-          <li>
-            <a href="mailto:info@example.com" class="mail-item-bottom"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+48111111111" class="tel-item-bottom"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="footer-adress">
+        <address>
+          <ul>
+            <li class="web-item-bottom">
+              <a href="index.html" class="item-web">Web</a
+              ><a href="index.html" class="item-studio-bottom">Studio</a>
+            </li>
+            <li class="addr-street">
+              <a>m. Warszawa, Aleje Jerozolimskie 21</a>
+            </li>
+            <li>
+              <a href="mailto:info@example.com" class="mail-item-bottom"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+48111111111" class="tel-item-bottom"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
