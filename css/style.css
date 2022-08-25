@@ -6,7 +6,7 @@ body {
 }
 header {
     width: 1600px;
-    height: 80px;
+
     background: #FFFFFF;
 }
 main {
@@ -20,10 +20,14 @@ main {
 .item-studio {
     color: #000000;
 }
+.item-studio-bottom {
+    color: #ffffff;
+}
 .web-item {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    color: #2196F3;
 }
 ul {
     list-style-type: none;
@@ -180,4 +184,55 @@ h3 {
     font-size: 26px;
     line-height: 31px;
     color: #2196F3;
+}
+.btn-first {
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+}
+.btn-second {
+    position: absolute;
+    width: 93px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+}
+
+.btn-third {
+    position: absolute;
+    width: 114px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+}
+
+.btn-fourth {
+    position: absolute;
+    width: 91px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+}
+
+.btn-fifth {
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+}
+.btn-first:hover,
+.btn-second:hover,
+.btn-third:hover,
+.btn-fourth:hover,
+.btn-fifth:hover {
+    background-color: #2196F3;
+    color: #FFFFFF
 }
