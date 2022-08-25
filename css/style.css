@@ -236,3 +236,14 @@ h3 {
     background-color: #2196F3;
     color: #FFFFFF
 }
+.menu-box-name {
+    font-weight: 700;
+    font-size: 18px;
+    color: #212121;
+}
+.menu-box-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
