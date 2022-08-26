@@ -63,31 +63,24 @@ h3 {
  }
 .link {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
 }
 .link:hover , .link:focus {
     color: #2196F3;
-}
-.link-ag {
-    font-weight: 500;
-    font-size: 14px;
-}
-.link-po {
-    font-weight: 500;
-    font-size: 14px;
-}
-.link-ko {
-    font-weight: 500;
-    font-size: 14px;
 }
 .mail-item {
     font-weight: 500;
     font-size: 14px;
     color: #757575;
 }
-.tel-item {
+.mail-tel-item {
     font-weight: 500;
     font-size: 14px;
     color: #757575;
+}
+.mail-tel-item:hover, .mail-tel-item:focus{
+color: #2196F3;
 }
 .bisnes-item {
     width: 1600px;
@@ -138,12 +131,7 @@ h3 {
     width: 1600;
     background: #2F303A;
 }
-.mail-item-bottom {
-    font-weight: 400;
-    font-size: 14px;
-    color: #ffffff99;
-}
-.tel-item-bottom {
+.mail-tel-item-bottom {
     font-weight: 400;
     font-size: 14px;
     color: #ffffff99;
