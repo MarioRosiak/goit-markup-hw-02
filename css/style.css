@@ -1,3 +1,10 @@
+/* *,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
 body {
     font-family: 'Roboto';
         font-weight: 400;
@@ -6,8 +13,10 @@ body {
 }
 header {
     width: 1600px;
-
     background: #FFFFFF;
+}
+nav {
+    height: 80px;
 }
 main {
     width: 1600px;
@@ -45,6 +54,7 @@ a {
 }
 a [href]{
 cursor: pointer;
+visibility: visible;
 }
 h1 {
     font-weight: 900;
@@ -66,7 +76,7 @@ h3 {
     font-weight: 500;
     font-size: 14px;
 }
-.link:hover , .link:focus, .link:visited {
+.link:hover , .link:focus {
     color: #2196F3;
 }
 .link-visit {
@@ -89,8 +99,7 @@ color: #2196F3;
 }
 .bisnes-item {
     width: 1600px;
-    height: 600px;
-    background: #2F303A;
+    background-color: #2F303A;
 }
 .text-item {
     font-weight: 900;
@@ -203,4 +212,22 @@ color: #2196F3;
     font-size: 16px;
     line-height: 30px;
     color: #757575;
+}
+.container-nav {
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.container-nav > .nav-links-content {
+padding-top: 32px;
+}
+.menu > .item:not(:first-child) {
+    margin-right: 40px;
+}
+.menu .link:hover {
+    text-decoration: none;
+}
+.box-job {
+    background: #F5F4FA;
 }
