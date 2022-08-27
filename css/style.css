@@ -69,6 +69,11 @@ h3 {
 .link:hover , .link:focus, .link:visited {
     color: #2196F3;
 }
+.link-visit {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+}
 .mail-item {
     font-weight: 500;
     font-size: 14px;
