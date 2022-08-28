@@ -55,6 +55,7 @@ a {
 a [href]{
 cursor: pointer;
 visibility: visible;
+cursor: pointer
 }
 h1 {
     font-weight: 900;
@@ -230,4 +231,16 @@ padding-top: 32px;
 }
 .box-job {
     background: #F5F4FA;
+}
+.top-nav {
+    width: 1600px;
+}
+.job {
+    width: 1600px;
+}
+.lore-ipsum {
+    width: 160px;
+}
+.box-item {
+    width: 1600px;
 }
