@@ -19,12 +19,12 @@ nav {
 }
 main {
     width: 1600px;
-    background: #FFFFFF;
+    background: var(--White);
 }
 .item-web {
     font-weight: 700;
     font-size: 26px;
-    color: #2196F3;
+    color: var(--Light-Blue);
 }
 
 .studio-item {
@@ -37,7 +37,7 @@ main {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
+    color: var(--Light-Blue);
 }
 .studio-item-bottom {
     font-weight: 700;
@@ -91,7 +91,7 @@ h3 {
     color: #757575;
 }
 .mail-tel-item:hover, .mail-tel-item:focus{
-color: #2196F3;
+color: var(--Light-Blue);
 }
 .bisnes-item {
     width: 1600px;
@@ -102,14 +102,14 @@ color: #2196F3;
     font-size: 44px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--White);
 }
 .txt-main {
     font-weight: 700;
     color: #212121;
 }
 .btn-services {
-    background-color: #2196F3;
+    background-color: var(--Light-Blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -118,7 +118,7 @@ color: #2196F3;
     color: #757575;
 }
 .box-team-first {
-    background: #FFFFFF;
+    background: var(--White);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -149,13 +149,13 @@ color: #2196F3;
 .addr-street {
     font-weight: 400;
     font-size: 14px;
-    color: #FFFFFF;
+    color: var(--White);
 }
 .web-item-bottom {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
+    color: var(--Light-Blue);
 }
 .btn-first {
     position: absolute;
@@ -195,8 +195,8 @@ color: #2196F3;
 .btn-third:hover,
 .btn-fourth:hover,
 .btn-fifth:hover {
-    background-color: #2196F3;
-    color: #FFFFFF
+    background-color: var(--Light-Blue;
+    color: var(--White);
 }
 .menu-box-name {
     font-weight: 700;
