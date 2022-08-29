@@ -1,10 +1,7 @@
-/* *,
-::before,
-::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
+:root {
+    --link-color: #212121;
+    --vlink-color: #2196F3;
+  }  
 body {
     font-family: 'Roboto';
         font-weight: 400;
@@ -73,17 +70,14 @@ h3 {
     font-size: 14px;
  }
 .link {
-    color: #212121;
+    color: var(--link-color);
     font-weight: 500;
     font-size: 14px;
 }
+
 .link:hover , .link:focus {
-    color: #2196F3;
+    color: var(--vlink-color);
 }
-.link-visit {
-    color: #2196F3;
-    font-weight: 500;
-    font-size: 14px;
 }
 .mail-item {
     font-weight: 500;
