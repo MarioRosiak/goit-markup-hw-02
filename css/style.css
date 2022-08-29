@@ -1,26 +1,36 @@
 :root {
-    --Light-Dark: #212121;
+    --Light-Black: #212121;
     --Light-Blue: #2196F3;
     --White: #FFFFFF;
-    --Ligth-Grey: #E5E5E5:
-  }  
+    --Ligth-Grey: #E5E5E5;
+    --Black: #000000;
+    --Dark-Blue: #2F303A;
+    --Withe-Grey: #F5F4FA;
+    --Dark-Grey: #212121;
+    --Grey: #757575;
+}
+
 body {
     font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 16px;
-        color: var(--Ligth-Grey)
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--Ligth-Grey)
 }
+
 header {
     width: 1600px;
     color: var(--White);
 }
+
 nav {
     height: 80px;
 }
+
 main {
     width: 1600px;
     background: var(--White);
 }
+
 .item-web {
     font-weight: 700;
     font-size: 26px;
@@ -31,72 +41,86 @@ main {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #000000;
+    color: var(--Black);
 }
+
 .webstudio-item {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     color: var(--Light-Blue);
 }
+
 .studio-item-bottom {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #ffffff;
+    color: var(--White);
 }
 ul {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
 }
-a [href]{
-cursor: pointer;
-visibility: visible;
-cursor: pointer
+
+a [href] {
+    cursor: pointer;
+    visibility: visible;
+    cursor: pointer
 }
+
 h1 {
     font-weight: 900;
     font-size: 44px;
-  }
+}
 
 h2 {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    color: var(--Dark-Grey);
 }
 
 h3 {
     font-weight: 700;
     font-size: 14px;
- }
+}
+
 .link {
-    color: var(--Light-Dark);
+    color: var(--Light-Black);
     font-weight: 500;
     font-size: 14px;
 }
 
-.link:hover , .link:focus {
+.link:hover,
+.link:focus {
     color: var(--Light-Blue);
 }
+
 .mail-item {
     font-weight: 500;
     font-size: 14px;
-    color: #757575;
+    color: var(--Grey);
 }
+
 .mail-tel-item {
     font-weight: 500;
     font-size: 14px;
-    color: #757575;
+    color: var(--Grey);
 }
-.mail-tel-item:hover, .mail-tel-item:focus{
-color: var(--Light-Blue);
+
+.mail-tel-item:hover,
+.mail-tel-item:focus {
+    color: var(--Light-Blue);
 }
+
 .bisnes-item {
     width: 1600px;
-    background-color: #2F303A;
+    background-color: var(--Dark-Blue);
 }
+
 .text-item {
     font-weight: 900;
     font-size: 44px;
@@ -104,138 +128,165 @@ color: var(--Light-Blue);
     text-transform: uppercase;
     color: var(--White);
 }
+
 .txt-main {
     font-weight: 700;
-    color: #212121;
+    color: var(--Dark-Grey);
 }
+
 .btn-services {
     background-color: var(--Light-Blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 .main-txt-body {
     font-size: 14px;
-    color: #757575;
+    color: var(--Grey);
 }
+
 .box-team-first {
     background: var(--White);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
 .txt-name {
     font-weight: 500;
     font-size: 16px;
+    color: var(--Light-Black);
 }
+
 .txt-position {
     font-weight: 400;
     font-size: 16px;
-    color: #757575;
+    color: var(--Grey);
 }
+
 .main-team {
-    background-color: #F5F4FA;
+    background-color: var(--Withe-Grey);
 }
+
 .addr-item-home {
     width: 1600px;
 }
+
 .footer-adress {
     width: 1600;
-    background: #2F303A;
+    background-color: var(--Dark-Blue);
 }
+
 .mail-tel-item-bottom {
     font-weight: 400;
     font-size: 14px;
     color: #ffffff99;
 }
+
 .addr-street {
     font-weight: 400;
     font-size: 14px;
     color: var(--White);
 }
+
 .web-item-bottom {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     color: var(--Light-Blue);
 }
+
 .btn-first {
     position: absolute;
-    background-color: #F5F4FA;
+    background-color: var(--Withe-Grey);
     border-radius: 4px;
     border: 0;
 }
+
 .btn-second {
     position: absolute;
-    background: #F5F4FA;
+    background: var(--Withe-Grey);
     border-radius: 4px;
     border: 0;
 }
 
 .btn-third {
     position: absolute;
-    background: #F5F4FA;
+    background: var(--Withe-Grey);
     border-radius: 4px;
     border: 0;
 }
 
 .btn-fourth {
     position: absolute;
-    background: #F5F4FA;
+    background: var(--Withe-Grey);
     border-radius: 4px;
     border: 0;
 }
 
 .btn-fifth {
     position: absolute;
-    background: #F5F4FA;
+    background: var(--Withe-Grey);
     border-radius: 4px;
     border: 0;
 }
+
 .btn-first:hover,
 .btn-second:hover,
 .btn-third:hover,
 .btn-fourth:hover,
 .btn-fifth:hover {
-    background-color: var(--Light-Blue;
-    color: var(--White);
-}
-.menu-box-name {
-    font-weight: 700;
-    font-size: 18px;
-    color: #212121;
-}
-.menu-box-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #757575;
-}
-.container-nav {
-    width: 1000px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-}
-.container-nav > .nav-links-content {
-padding-top: 32px;
-}
-.menu > .item:not(:first-child) {
-    margin-right: 40px;
-}
-.menu .link:hover {
-    text-decoration: none;
-}
-.box-job {
-    background: #F5F4FA;
-}
-.top-nav {
-    width: 1600px;
-}
-.job {
-    width: 1600px;
-}
-.lore-ipsum {
-    width: 160px;
-}
-.box-item {
-    width: 1600px;
-}
+    background-color: var(--Light-Blue);
+            color: var(--White);
+    }
+
+    .menu-box-name {
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--Dark-Grey);
+    }
+
+    .menu-box-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: var(--Grey);
+    }
+
+    .container-nav {
+        width: 1000px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-nav > .nav-links-content {
+        padding-top: 32px;
+    }
+
+    .menu > .item:not(:first-child) {
+        margin-right: 40px;
+    }
+
+    .menu .link:hover {
+        text-decoration: none;
+    }
+
+    .box-job {
+        background: var(--Withe-Grey);
+    }
+
+    .top-nav {
+        width: 1600px;
+    }
+
+    .job {
+        width: 1600px;
+    }
+
+    .lore-ipsum {
+        width: 1600px;
+    }
+
+    .box-item {
+        width: 1600px;
+    }
