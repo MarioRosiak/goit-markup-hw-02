@@ -180,7 +180,7 @@ h3 {
 .mail-tel-item-bottom {
     font-weight: 400;
     font-size: 14px;
-    color: #ffffff99;
+    color: var(--White);
 }
 
 .addr-street {
