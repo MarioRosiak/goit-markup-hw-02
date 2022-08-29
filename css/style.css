@@ -1,16 +1,18 @@
 :root {
     --Light-Dark: #212121;
     --Light-Blue: #2196F3;
+    --White: #FFFFFF;
+    --Ligth-Grey: #E5E5E5:
   }  
 body {
     font-family: 'Roboto';
         font-weight: 400;
         font-size: 16px;
-        background: #E5E5E5;
+        color: var(--Ligth-Grey)
 }
 header {
     width: 1600px;
-    background: #FFFFFF;
+    color: var(--White);
 }
 nav {
     height: 80px;
