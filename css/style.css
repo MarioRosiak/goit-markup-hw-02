@@ -1,6 +1,6 @@
 :root {
-    --LiteDark: #212121;
-    --LiteBlue: #2196F3;
+    --Lite-Dark: #212121;
+    --Lite-Blue: #2196F3;
   }  
 body {
     font-family: 'Roboto';
@@ -70,13 +70,13 @@ h3 {
     font-size: 14px;
  }
 .link {
-    color: var(--LiteDark-color);
+    color: var(--Lite-Dark-color);
     font-weight: 500;
     font-size: 14px;
 }
 
 .link:hover , .link:focus {
-    color: var(--LiteBlue-color);
+    color: var(--Lite-Blue-color);
 }
 }
 .mail-item {
