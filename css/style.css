@@ -70,13 +70,13 @@ h3 {
     font-size: 14px;
  }
 .link {
-    color: var(--Lite-Dark-color);
+    color: var(--Lite-Dark);
     font-weight: 500;
     font-size: 14px;
 }
 
 .link:hover , .link:focus {
-    color: var(--Lite-Blue-color);
+    color: var(--Lite-Blue);
 }
 .mail-item {
     font-weight: 500;
