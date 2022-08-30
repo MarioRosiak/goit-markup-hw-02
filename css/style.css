@@ -16,15 +16,16 @@ body {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
-  background: #e5e5e5;
+  background: var(--Ligth-Grey);
 }
 header {
   width: 1600px;
-  background: #ffffff;
+  background: var(--White);
 }
 main {
   width: 1600px;
-  background: #ffffff;
+  background: var(--White);
+  position: absolute;
 }
 .item-web {
   font-weight: 700;
@@ -35,7 +36,7 @@ main {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #000000;
+  color: var(--Black);
 }
 .webstudio-item {
   font-weight: 700;
@@ -49,7 +50,7 @@ main {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #ffffff;
+  color: var(--White);
 }
 ul {
   list-style-type: none;
@@ -89,12 +90,12 @@ h3 {
 .mail-item {
   font-weight: 500;
   font-size: 14px;
-  color: #757575;
+  color: var(--Grey);
 }
 .mail-tel-item {
   font-weight: 500;
   font-size: 14px;
-  color: #757575;
+  color: var(--Grey);
 }
 .mail-tel-item:hover,
 .mail-tel-item:focus {
@@ -103,14 +104,14 @@ h3 {
 .bisnes-item {
   width: 1600px;
   height: 600px;
-  background: #2f303a;
+  background: var(--Dark-Blue);
 }
 .text-item {
   font-weight: 900;
   font-size: 44px;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--White);
 }
 .txt-main {
   font-weight: 700;
@@ -118,17 +119,20 @@ h3 {
 }
 .btn-services {
   background-color: var(--Light-Blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--Shadow-Red-Black);
   border-radius: 4px;
 }
 .main-txt-body {
   font-size: 14px;
-  color: #757575;
+  color: var(--Grey);
+}
+.box {
+  background-color: var(--Withe-Grey);
 }
 .box-team-first {
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: var(--White);
+  box-shadow: 0px 1px 3px var(--Shadow-RB-1), 0px 1px 1px var(--Shadow-RB-2),
+    0px 2px 1px var(--Shadow-RB-3);
   border-radius: 0px 0px 4px 4px;
 }
 .txt-name {
@@ -138,27 +142,27 @@ h3 {
 .txt-position {
   font-weight: 400;
   font-size: 16px;
-  color: #757575;
+  color: var(--Grey);
 }
 .main-team {
-  background-color: #f5f4fa;
+  background-color: var(--Withe-Grey);
 }
 .addr-item-home {
   width: 1600px;
 }
 .footer-adress {
   width: 1600;
-  background: #2f303a;
+  background: var(--Dark-Blue);
 }
 .mail-tel-item-bottom {
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff99;
+  color: var(--White);
 }
 .addr-street {
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: var(--White);
 }
 .web-item-bottom {
   font-weight: 700;
@@ -168,34 +172,34 @@ h3 {
 }
 .btn-first {
   position: absolute;
-  background-color: #f5f4fa;
+  background-color: var(--Withe-Grey);
   border-radius: 4px;
   border: 0;
 }
 .btn-second {
   position: absolute;
-  background: #f5f4fa;
+  background: var(--Withe-Grey);
   border-radius: 4px;
   border: 0;
 }
 
 .btn-third {
   position: absolute;
-  background: #f5f4fa;
+  background: var(--Withe-Grey);
   border-radius: 4px;
   border: 0;
 }
 
 .btn-fourth {
   position: absolute;
-  background: #f5f4fa;
+  background: #var(--Withe-Grey);
   border-radius: 4px;
   border: 0;
 }
 
 .btn-fifth {
   position: absolute;
-  background: #f5f4fa;
+  background: var(--Withe-Grey);
   border-radius: 4px;
   border: 0;
 }
@@ -205,7 +209,7 @@ h3 {
 .btn-fourth:hover,
 .btn-fifth:hover {
   background-color: var(--Light-Blue);
-  color: #ffffff;
+  color: var(--White);
 }
 .menu-box-name {
   font-weight: 700;
@@ -216,28 +220,5 @@ h3 {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  color: #757575;
-}
-.top-nav {
-  width: 1600px;
-  height: 80px;
-  display: flex;
-}
-.link-item {
-  display: flex;
-  padding-left: 93px;
-  padding-top: 32px;
-  margin: 0px;
-}
-.contact-item {
-  display: flex;
-  margin: 0px;
-  padding-top: 32px;
-  padding-left: 371px;
-}
-.portf-item {
-  padding-left: 46px;
-}
-.tel-item {
-  padding-left: 50px;
+  color: var(--Grey);
 }
