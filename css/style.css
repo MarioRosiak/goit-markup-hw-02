@@ -61,18 +61,15 @@ a {
 a [href] {
   cursor: pointer;
 }
-
 h1 {
   font-weight: 900;
   font-size: 44px;
 }
-
 h2 {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
 }
-
 h3 {
   font-weight: 700;
   font-size: 14px;
@@ -82,7 +79,6 @@ h3 {
   font-weight: 500;
   font-size: 14px;
 }
-
 .link:hover,
 .link:focus {
   color: var(--Light-Blue);
@@ -182,21 +178,18 @@ h3 {
   border-radius: 4px;
   border: 0;
 }
-
 .btn-third {
   position: absolute;
   background: var(--Withe-Grey);
   border-radius: 4px;
   border: 0;
 }
-
 .btn-fourth {
   position: absolute;
   background: #var(--Withe-Grey);
   border-radius: 4px;
   border: 0;
 }
-
 .btn-fifth {
   position: absolute;
   background: var(--Withe-Grey);
