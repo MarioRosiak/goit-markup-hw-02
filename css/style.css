@@ -1,293 +1,243 @@
 :root {
-    --Light-Black: #212121;
-    --Light-Blue: #2196F3;
-    --White: #FFFFFF;
-    --Ligth-Grey: #E5E5E5;
-    --Black: #000000;
-    --Dark-Blue: #2F303A;
-    --Withe-Grey: #F5F4FA;
-    --Dark-Grey: #212121;
-    --Grey: #757575;
+  --Light-Black: #212121;
+  --Light-Blue: #2196f3;
+  --White: #ffffff;
+  --Ligth-Grey: #e5e5e5;
+  --Black: #000000;
+  --Dark-Blue: #2f303a;
+  --Withe-Grey: #f5f4fa;
+  --Grey: #757575;
+  --Shadow-Red-Black: rgba(0, 0, 0, 0.15);
+  --Shadow-RB-1: rgba(0, 0, 0, 0.12);
+  --Shadow-RB-2: rgba(0, 0, 0, 0.14);
+  --Shadow-RB-3: rgba(0, 0, 0, 0.2);
 }
-
 body {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--Ligth-Grey)
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  background: #e5e5e5;
 }
-
 header {
-    width: 1600px;
-    color: var(--White);
+  width: 1600px;
+  background: #ffffff;
 }
-
-nav {
-    height: 80px;
-}
-
 main {
-    width: 1600px;
-    background: var(--White);
+  width: 1600px;
+  background: #ffffff;
 }
-
 .item-web {
-    font-weight: 700;
-    font-size: 26px;
-    color: var(--Light-Blue);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--Light-Blue);
 }
-
 .studio-item {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: var(--Black);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
 }
-
 .webstudio-item {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: var(--Light-Blue);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--Light-Blue);
+  margin-top: 24px;
+  margin-left: 215px;
 }
-
 .studio-item-bottom {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: var(--White);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 a [href] {
-    cursor: pointer;
-    visibility: visible;
-    cursor: pointer
+  cursor: pointer;
 }
 
 h1 {
-    font-weight: 900;
-    font-size: 44px;
+  font-weight: 900;
+  font-size: 44px;
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    color: var(--Dark-Grey);
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
 }
 
 h3 {
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--Dark-Grey)
+  font-weight: 700;
+  font-size: 14px;
 }
-
 .link {
-    color: var(--Light-Black);
-    font-weight: 500;
-    font-size: 14px;
+  color: var(--Light-Black);
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .link:hover,
 .link:focus {
-    color: var(--Light-Blue);
+  color: var(--Light-Blue);
 }
-
 .mail-item {
-    font-weight: 500;
-    font-size: 14px;
-    color: var(--Grey);
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
 }
-
 .mail-tel-item {
-    font-weight: 500;
-    font-size: 14px;
-    color: var(--Grey);
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
 }
-
 .mail-tel-item:hover,
 .mail-tel-item:focus {
-    color: var(--Light-Blue);
+  color: var(--Light-Blue);
 }
-
 .bisnes-item {
-    width: 1600px;
-    background-color: var(--Dark-Blue);
+  width: 1600px;
+  height: 600px;
+  background: #2f303a;
 }
-
 .text-item {
-    font-weight: 900;
-    font-size: 44px;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--White);
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-
 .txt-main {
-    font-weight: 700;
-    color: var(--Dark-Grey);
+  font-weight: 700;
+  color: var(--Light-Black);
 }
-
 .btn-services {
-    background-color: var(--Light-Blue);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+  background-color: var(--Light-Blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
-
 .main-txt-body {
-    font-size: 14px;
-    color: var(--Grey);
+  font-size: 14px;
+  color: #757575;
 }
-
 .box-team-first {
-    background: var(--White);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
-
 .txt-name {
-    font-weight: 500;
-    font-size: 16px;
-    color: var(--Light-Black);
+  font-weight: 500;
+  font-size: 16px;
 }
-
 .txt-position {
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--Grey);
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
 }
-
 .main-team {
-    background-color: var(--Withe-Grey);
+  background-color: #f5f4fa;
 }
-
 .addr-item-home {
-    width: 1600px;
+  width: 1600px;
 }
-
 .footer-adress {
-    width: 1600;
-    background-color: var(--Dark-Blue);
+  width: 1600;
+  background: #2f303a;
 }
-
 .mail-tel-item-bottom {
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--White);
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff99;
 }
-
 .addr-street {
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--White);
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
 }
-
 .web-item-bottom {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: var(--Light-Blue);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--Light-Blue);
 }
-
 .btn-first {
-    position: absolute;
-    background-color: var(--Withe-Grey);
-    border-radius: 4px;
-    border: 0;
+  position: absolute;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
 }
-
 .btn-second {
-    position: absolute;
-    background: var(--Withe-Grey);
-    border-radius: 4px;
-    border: 0;
+  position: absolute;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
 }
 
 .btn-third {
-    position: absolute;
-    background: var(--Withe-Grey);
-    border-radius: 4px;
-    border: 0;
+  position: absolute;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
 }
 
 .btn-fourth {
-    position: absolute;
-    background: var(--Withe-Grey);
-    border-radius: 4px;
-    border: 0;
+  position: absolute;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
 }
 
 .btn-fifth {
-    position: absolute;
-    background: var(--Withe-Grey);
-    border-radius: 4px;
-    border: 0;
+  position: absolute;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
 }
-
 .btn-first:hover,
 .btn-second:hover,
 .btn-third:hover,
 .btn-fourth:hover,
 .btn-fifth:hover {
-    background-color: var(--Light-Blue);
-            color: var(--White);
-    }
-
-    .menu-box-name {
-        font-weight: 700;
-        font-size: 18px;
-        color: var(--Dark-Grey);
-    }
-
-    .menu-box-description {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        color: var(--Grey);
-    }
-
-    .container-nav {
-        width: 1000px;
-        height: 80px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .container-nav > .nav-links-content {
-        padding-top: 32px;
-    }
-
-    .menu > .item:not(:first-child) {
-        margin-right: 40px;
-    }
-
-    .menu .link:hover {
-        text-decoration: none;
-    }
-
-    .box-job {
-        background: var(--Withe-Grey);
-    }
-
-    .top-nav {
-        width: 1600px;
-    }
-
-    .job {
-        width: 1600px;
-    }
-
-    .lore-ipsum {
-        width: 1600px;
-    }
-
-    .box-item {
-        width: 1600px;
-    }
+  background-color: var(--Light-Blue);
+  color: #ffffff;
+}
+.menu-box-name {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--Light-Black);
+}
+.menu-box-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+.top-nav {
+  width: 1600px;
+  height: 80px;
+  display: flex;
+}
+.link-item {
+  display: flex;
+  padding-left: 93px;
+  padding-top: 32px;
+  margin: 0px;
+}
+.contact-item {
+  display: flex;
+  margin: 0px;
+  padding-top: 32px;
+  padding-left: 371px;
+}
+.portf-item {
+  padding-left: 46px;
+}
+.tel-item {
+  padding-left: 50px;
+}
